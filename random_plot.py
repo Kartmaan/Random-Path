@@ -45,7 +45,9 @@ def show_info(strip, step, angle_range):
     t.goto(0, (strip//2)+4)
     t.write(txt, font=("Arial", 10, "normal"))
 
-def run(strip=100, step=10, angle_range=100, info=False, show_strip=True):
+def run(strip=100, step=10, angle_range=100, info=False, 
+    show_strip=True):
+
     """ Starts the random graph inside the fixed strip, 
     until reaching the right edge of the surface.
 
@@ -127,6 +129,7 @@ def run(strip=100, step=10, angle_range=100, info=False, show_strip=True):
             t.forward(step+0)
             #print(f"---- HDG CORRECTION BOTTOM. INITIAL HDG : {init_hdg} ----")
 
+        # No heading correction
         # The next step crosses no limits
         else:
             t.setheading(hdg)
@@ -138,6 +141,6 @@ def run(strip=100, step=10, angle_range=100, info=False, show_strip=True):
     print("FINISH")
     print("STEPS : ", len(pos_hist))
 
-run(strip=10, step=4, angle_range=100, info=True, show_strip=True)
+run(strip=200, step=50, angle_range=100, info=True, show_strip=True)
 
 t.exitonclick()
