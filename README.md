@@ -9,3 +9,4 @@ Draws a random graph within spatial boundaries. The turtle moves from left to ri
 - `show_strip` : display the upper and lower limits between which the graph is drawn 
 
 ## Screenshots
+![mosaic](https://user-images.githubusercontent.com/11463619/232893878-16f00417-3978-416c-8dfa-08b0e74bf582.jpg)
