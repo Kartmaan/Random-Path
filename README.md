@@ -5,5 +5,7 @@ Draws a random graph within spatial boundaries. The turtle moves from left to ri
 - `strip` : defines the width of the strip in which the graph will be drawn
 - `step` : length of the step between each change of direction of the turtle
 - `angle_range` : angular freedom of movement of the turtle
+- `info` : display on the surface information related to function parameters
+- `show_strip` : display the upper and lower limits between which the graph is drawn 
 
 ## Screenshots
